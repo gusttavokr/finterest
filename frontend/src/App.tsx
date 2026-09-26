@@ -1,10 +1,10 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 
 import Nav from './Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -116,7 +116,9 @@ function App() {
       <section id="spacer"></section> */}
 
       {/* <h1 className='text-red-900'>OI</h1> */}
-      <Nav></Nav>
+      <div className='  '>
+        <Nav></Nav>
+      </div>
     </>
   )
 }

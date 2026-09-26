@@ -13,49 +13,49 @@ import { Cog } from 'lucide-react';
 function Nav() {
     return (
         <>
-            <div className='p-6 flex flex-col min-h-screen justify-between'>
+            <div className='w-fit border-black items-center border-gray-400 border-r-1 p-6 flex flex-col min-h-screen justify-between'>
 
 
                 {/* Lista de páginas */}
-                <div className='gap-6 flex flex-col'>
+                <div className='gap-6 items-center w-fit flex flex-col'>
 
                     {/* Logo */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <img src={favicon} alt="" className='w-8' />
                     </div>
 
                     {/* Página inicial */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <House size={28} />
                     </div>
 
                     {/* Explorar */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <Compass size={28} />
                     </div>
 
                     {/* Suas pastas */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <LayoutPanelLeft size={28} />
                     </div>
 
                     {/* Criar */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <SquarePlus size={28} />
                     </div>
 
                     {/* Notificações */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <Bell size={28} />
                     </div>
 
                     {/* Notificações */}
-                    <div className='w-48 p-2'>
+                    <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                         <MessageCircleMore size={28} />
                     </div>
                 </div>
 
-                <div className='w-fit p-2 hover:bg-gray-200'>
+                <div className='w-fit p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
                     <Cog size={28} />
                 </div>
             </div>
