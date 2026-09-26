@@ -1,6 +1,4 @@
-import './layout.css'
-
-import favicon from './assets/favicon.svg';
+import './App.css'
 
 import { House } from 'lucide-react';
 import { Compass } from 'lucide-react';
@@ -13,7 +11,7 @@ import { Cog } from 'lucide-react';
 function Nav() {
     return (
         <>
-            <div className='w-fit border-black items-center border-gray-400 border-r-1 p-6 flex flex-col min-h-screen justify-between'>
+            <div className='w-fit border-black items-center border-gray-400 border-r-1 p-4 flex flex-col min-h-screen justify-between'>
 
 
                 {/* Lista de páginas */}
@@ -21,7 +19,7 @@ function Nav() {
 
                     {/* Logo */}
                     <div className='p-2 rounded-2xl hover:bg-gray-200 cursor-pointer'>
-                        <img src={favicon} alt="" className='w-8' />
+                        <img src="./src/assets/favicon.svg" alt="" className='w-8' />
                     </div>
 
                     {/* Página inicial */}

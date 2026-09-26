@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 import './App.css'
 
-import Nav from './Nav'
+import Nav from '../../components/layout/Nav'
+import Search from '../../components/layout/Nav2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -116,8 +117,11 @@ function App() {
       <section id="spacer"></section> */}
 
       {/* <h1 className='text-red-900'>OI</h1> */}
-      <div className='  '>
+      <div className='flex'>
         <Nav></Nav>
+
+        <Search></Search>
+        
       </div>
     </>
   )
