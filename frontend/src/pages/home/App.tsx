@@ -3,7 +3,8 @@ import './App.css'
 
 import Nav from '../../components/layout/Nav'
 import Search from '../../components/layout/Nav2'
-import Button from '../../components/shared/Button'
+// import Button from '../../components/shared/Button'
+import Feed from '../../components/layout/Feed'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -124,9 +125,9 @@ function App() {
         <div className='flex flex-col w-full p-4 gap-10'>
           <Search></Search>
 
-          <Button placeholder='Salvar'></Button>
+          {/* <Button placeholder='Salvar'></Button> */}
+          <Feed></Feed>
         </div>
-
 
       </div>
     </>

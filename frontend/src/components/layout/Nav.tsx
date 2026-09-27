@@ -11,7 +11,7 @@ import { Cog } from 'lucide-react';
 function Nav() {
     return (
         <>
-            <div className='w-fit border-black items-center border-gray-400 border-r-1 p-4 flex flex-col min-h-screen justify-between'>
+            <div className='w-fit h-screen sticky top-0 border-black items-center border-gray-400 border-r-1 p-4 flex flex-col justify-between'>
 
 
                 {/* Lista de páginas */}
