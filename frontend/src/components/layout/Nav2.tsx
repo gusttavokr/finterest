@@ -5,7 +5,7 @@ import { CircleUserRound, Search, ChevronDown } from "lucide-react"
 function Nav2() {
     return (
         <>
-            <div className="h-fit gap-4 w-full p-4 flex items-center">
+            <div className="h-fit gap-4 w-full flex items-center">
 
                 {/* Search Bar */}
                 <div className="w-full">

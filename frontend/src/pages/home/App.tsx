@@ -3,6 +3,7 @@ import './App.css'
 
 import Nav from '../../components/layout/Nav'
 import Search from '../../components/layout/Nav2'
+import Button from '../../components/shared/Button'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -120,8 +121,13 @@ function App() {
       <div className='flex'>
         <Nav></Nav>
 
-        <Search></Search>
-        
+        <div className='flex flex-col w-full p-4 gap-10'>
+          <Search></Search>
+
+          <Button placeholder='Salvar'></Button>
+        </div>
+
+
       </div>
     </>
   )
